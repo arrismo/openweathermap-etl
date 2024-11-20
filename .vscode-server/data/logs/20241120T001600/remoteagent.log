@@ -49,3 +49,16 @@
     at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
     at process.emit (node:events:531:35)
 2024-11-20 01:29:43.555 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-20 01:36:39.321 [info] [<unknown>][ddd7c0cb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-20 01:36:39.403 [info] [<unknown>][136b0372][ExtensionHostConnection] <1965> Extension Host Process exited with code: 0, signal: null.
+2024-11-20 01:36:39.404 [info] Last EH closed, waiting before shutting down
+2024-11-20 01:40:28.467 [info] [<unknown>][6d7772f4][ManagementConnection] New connection established.
+2024-11-20 01:40:28.480 [info] [<unknown>][7a3ea305][ExtensionHostConnection] New connection established.
+2024-11-20 01:40:28.484 [info] [<unknown>][7a3ea305][ExtensionHostConnection] <10497> Launched Extension Host Process.
+2024-11-20 01:40:36.016 [info] [<unknown>][6d7772f4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-20 01:40:36.039 [info] [<unknown>][7a3ea305][ExtensionHostConnection] <10497> Extension Host Process exited with code: 0, signal: null.
+2024-11-20 01:40:36.039 [info] Cancelling previous shutdown timeout
+2024-11-20 01:40:36.039 [info] Last EH closed, waiting before shutting down
+2024-11-20 01:40:37.303 [info] [<unknown>][93644ddd][ExtensionHostConnection] New connection established.
+2024-11-20 01:40:37.308 [info] [<unknown>][93644ddd][ExtensionHostConnection] <10622> Launched Extension Host Process.
+2024-11-20 01:40:37.318 [info] [<unknown>][6b2a7f0b][ManagementConnection] New connection established.
