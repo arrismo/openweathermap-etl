@@ -2,3 +2,4 @@
 !.gitignore
 airflow_venv/
 airflow/
+__pycache__/
