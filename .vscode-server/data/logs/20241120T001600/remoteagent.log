@@ -48,3 +48,4 @@
 2024-11-20 00:21:07.034 [error] Error: Unexpected SIGPIPE
     at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
     at process.emit (node:events:531:35)
+2024-11-20 01:29:43.555 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
