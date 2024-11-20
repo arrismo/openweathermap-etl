@@ -1,2 +1,4 @@
 .*
 !.gitignore
+airflow_venv/
+airflow/
