@@ -1,0 +1,105 @@
+2024-11-20 00:16:10.723 [info] [main] Log level: Info
+2024-11-20 00:16:10.723 [info] [main] Validating found git in: "git"
+2024-11-20 00:16:10.723 [info] [main] Using git "2.43.0" from "git"
+2024-11-20 00:16:10.723 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-20 00:16:10.723 [info] > git rev-parse --show-toplevel [82ms]
+2024-11-20 00:16:10.723 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:16:10.723 [info] > git rev-parse --show-toplevel [16ms]
+2024-11-20 00:16:10.723 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:16:10.725 [info] > git rev-parse --show-toplevel [118ms]
+2024-11-20 00:16:10.725 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:16:10.735 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-20 00:16:10.736 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:16:10.744 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-20 00:16:10.744 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:16:10.752 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-20 00:16:10.752 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:16:10.758 [info] > git rev-parse --show-toplevel [0ms]
+2024-11-20 00:16:10.758 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:16:10.765 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-20 00:16:10.765 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:16:10.772 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-20 00:16:11.593 [info] > git rev-parse --show-toplevel [21ms]
+2024-11-20 00:16:11.593 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:28:23.018 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-20 00:28:23.019 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:37:56.665 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-20 00:37:56.666 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 00:38:00.236 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-20 00:38:00.236 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 01:14:55.294 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-20 01:14:55.294 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 01:14:57.395 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-20 01:14:57.395 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 01:15:28.030 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-20 01:15:28.031 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 01:15:33.219 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-20 01:15:33.219 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 01:19:27.943 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-20 01:19:27.943 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 01:19:32.173 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-20 01:19:32.173 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-20 01:26:52.790 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-20 01:26:52.795 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-20 01:26:52.808 [info] [Model][openRepository] Opened repository: /home/ubuntu
+2024-11-20 01:26:52.817 [info] > git config --get commit.template [3ms]
+2024-11-20 01:26:52.820 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-20 01:26:52.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-11-20 01:26:52.825 [warning] [Git][getBranch] No such branch: master
+2024-11-20 01:26:52.835 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-20 01:26:53.182 [info] > git show --textconv :airflow/dags/weather_dag.py [9ms]
+2024-11-20 01:26:53.186 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [9ms]
+2024-11-20 01:26:53.348 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-20 01:26:55.416 [info] > git status -z -uall [2588ms] (cancelled)
+2024-11-20 01:27:06.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1088ms]
+2024-11-20 01:27:06.077 [warning] [Git][getBranch] No such branch: master
+2024-11-20 01:27:06.082 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2024-11-20 01:27:06.115 [info] > git config --get commit.template [38ms]
+2024-11-20 01:27:06.140 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-20 01:27:06.147 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-11-20 01:27:06.147 [warning] [Git][getBranch] No such branch: master
+2024-11-20 01:27:06.163 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-20 01:27:06.425 [info] > git status -z -uall [273ms] (cancelled)
+2024-11-20 01:27:09.227 [info] > git config --get commit.template [2ms]
+2024-11-20 01:27:09.230 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-20 01:27:09.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-20 01:27:09.232 [warning] [Git][getBranch] No such branch: master
+2024-11-20 01:27:09.240 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-20 01:27:09.476 [info] > git status -z -uall [242ms] (cancelled)
+2024-11-20 01:27:12.019 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [2ms]
+2024-11-20 01:27:12.061 [info] > git show --textconv :airflow/dags/weather_dag.py [0ms]
+2024-11-20 01:27:13.012 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-20 01:27:13.012 [info] > git config --get commit.template [5ms]
+2024-11-20 01:27:13.013 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-20 01:27:13.021 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-20 01:27:13.224 [info] > git status -z -uall [208ms] (cancelled)
+2024-11-20 01:27:14.150 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [1ms]
+2024-11-20 01:27:14.182 [info] > git show --textconv :airflow/dags/weather_dag.py [0ms]
+2024-11-20 01:27:23.240 [info] > git config --get commit.template [1ms]
+2024-11-20 01:27:23.243 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-20 01:27:23.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-11-20 01:27:23.254 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-20 01:27:23.453 [info] > git status -z -uall [206ms] (cancelled)
+2024-11-20 01:27:23.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-20 01:27:23.458 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-11-20 01:27:23.458 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-20 01:27:23.463 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-11-20 01:27:23.471 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2024-11-20 01:27:23.471 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-20 01:27:23.471 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-20 01:27:24.479 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [1ms]
+2024-11-20 01:27:24.509 [info] > git show --textconv :airflow/dags/weather_dag.py [1ms]
+2024-11-20 01:27:30.886 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [1ms]
+2024-11-20 01:27:30.918 [info] > git show --textconv :airflow/dags/weather_dag.py [2ms]
+2024-11-20 01:27:38.807 [info] > git config --get commit.template [4ms]
+2024-11-20 01:27:38.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-20 01:27:38.823 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-20 01:27:39.029 [info] > git status -z -uall [213ms] (cancelled)
+2024-11-20 01:27:39.029 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2024-11-20 01:27:39.843 [info] > git diff --name-status -z --diff-filter=ADMR 478fa2ae41a262f59f2ff1352377e58429a3747f...refs/remotes/origin/main [802ms]
+2024-11-20 01:27:40.022 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [1ms]
+2024-11-20 01:27:40.072 [info] > git show --textconv :airflow/dags/weather_dag.py [1ms]
+2024-11-20 01:28:19.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-20 01:28:19.401 [info] > git config --get commit.template [5ms]
+2024-11-20 01:28:19.411 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-20 01:28:19.625 [info] > git status -z -uall [221ms] (cancelled)
