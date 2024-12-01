@@ -1,7 +1,6 @@
 # openweathermap-etl
 
-Steps to run:
-Get API from https://openweathermap.org/api
+
 
 
 
