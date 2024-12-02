@@ -4,7 +4,7 @@ This ETL (Extract, Transform, Load) pipeline is designed to retrieve weather dat
 
 # Prerequisites
 
-1. Python 3.8+
+1. Python 3.12+
 2. Apache Airflow
 3. OpenWeatherMap API Key
 4. AWS S3 Bucket
