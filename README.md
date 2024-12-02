@@ -1,7 +1,6 @@
 # openweathermap-etl
 This ETL (Extract, Transform, Load) pipeline is designed to retrieve weather data from OpenWeatherMap API, process it, and create a comprehensive weather data analysis solution.
 
-
 # Prerequisites
 
 1. Python 3.12+
@@ -11,14 +10,29 @@ This ETL (Extract, Transform, Load) pipeline is designed to retrieve weather dat
 5. MySQL Database
 6. Power BI Desktop
 
+# Methodology:
+1. Fetch Data from [OpenWeather API](https://openweathermap.org/current): Utilize the OpenWeather API to retrieve the necessary weather data for your analysis. This will serve as the primary data source for your ETL pipeline.
+2. Analyze the Data Structure: Examine the data returned from the OpenWeather API to understand the schema, data types, and any relevant metadata that will inform your data processing.
+3. Construct a mock production data lake in AWS S3: Create an S3 bucket and the necessary table schema to serve as the data source for your project.
+4. Build an ETL Pipeline using Airflow:
+   - Fetch the weather data from the OpenWeather API.
+   - Run the `weather_dag.py` job on the downloaded data to produce a cleaned and processed dataset.
+   - Store the final dataset in an AWS S3 bucket for further analysis.
+5. Set up MySQL instance on Amazon RDS and make sure MySQL Workbench is setup on your computer
+6. Configure AWS Glue and Crawlers
+   - Utilize the AWS Glue service to automate the data cataloging and schema management tasks.
+   - Set up Glue crawlers to discover and ingest the data stored in your S3 data lake.
+
+7. Visualize in Power BI
+   - Connect the processed data from the MySQL database to Power BI.
 
 
 # Architecture Diagram
 1. `OpenWeather API`: Primary data source for weather information
-1. `Airflow`: Scheduling and orchestration of data pipeline workflows
-2. `Amazon S3`: Data lake for storing raw, unprocessed weather data
-3. `MySQL`: Data warehouse for structured and transformed weather data
-4. `Power BI`: Data visualization and dashboard creation
+2. `Airflow`: Scheduling and orchestration of data pipeline workflows
+3. `Amazon S3`: Data lake for storing raw, unprocessed weather data
+4. `MySQL`: Data warehouse for structured and transformed weather data
+5. `Power BI`: Data visualization and dashboard creation
 
 ![Screenshot](diagram.png)
 
