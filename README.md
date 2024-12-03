@@ -18,6 +18,7 @@ This ETL (Extract, Transform, Load) pipeline is designed to retrieve weather dat
    - Fetch the weather data from the OpenWeather API.
    - Run the `weather_dag.py` job on the downloaded data to produce a cleaned and processed dataset.
    - Store the final dataset in an AWS S3 bucket for further analysis.
+![Screenshot](airflow-screenshot.png)
 5. Set up MySQL instance on Amazon RDS and make sure MySQL Workbench is setup on your computer
 6. Configure AWS Glue and Crawlers
    - Utilize the AWS Glue service to automate the data cataloging and schema management tasks.
